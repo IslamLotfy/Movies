@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="Sort"
+        android:defaultValue="Most Popular"
+        android:title="Kind of list"
+        android:entryValues="@array/pref_units_values"
+        android:entries="@array/pref_units_options"/>
+</PreferenceScreen>
